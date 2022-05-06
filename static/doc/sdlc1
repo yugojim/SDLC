@@ -1,0 +1,23 @@
+1、定義問題
+(1)問題類型
+	恢復原狀型
+(2)問題描述
+	daily checlk 更新
+(3)使用者
+	Customer
+(4)截止日期
+	2022-05-06
+(5)優先度
+	MustHave
+2、人力成本
+	專案管理 PM : yugojim
+	程式開發 RD : yugojim
+	介面設計 UI : yugojim
+	測試人員 QA : yugojim
+3、硬體資源
+	作業系統 OS : Ubuntu Server 22.04 LTS 64 BIT
+	處理器 CPU :1
+	記憶體 RAM : 8G
+	硬碟 HD : 30G
+4、預估成果
+	daily checlk 更新

@@ -1,0 +1,176 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="icon" href="data:,">
+    <title>NYCU SDLC Admin</title>	
+	{% include 'utilities-css.html' %}
+	
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+	{% include 'utilities-Sidebar.html' %}
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+			{% include 'utilities-Topbar.html' %}
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+					<div class="d-sm-flex align-items-center justify-content-between mb-4">
+						<h3>軟體開發 <span class="badge badge-secondary">Software Development {{ FuncResult }}</span></h3>
+						<a href="/static/doc/sdlc1.docx" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+								class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+					</div>
+					<form method="post" action="{% url 'sdlc1' %}">
+					{% csrf_token %}
+						<div class="form-group">
+						  <div class="form-row">
+							<div class="form-group col-md-2">
+							  <label>定義問題</label>
+							  <!-- <input type="text" class="form-control" id="question" name="question" placeholder="question" required> -->
+							  <select id="questiontype" name="questiontype" class="form-control">
+								<option value="恢復原狀型" selected >恢復原狀型</option>
+								<option value="防杜潛在危機型" >防杜潛在危機型</option>
+								<option value="追求理想型" >追求理想型</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-4">
+							  <label>問題說明</label>
+							  <input type="text" class="form-control" id="question" name="question" placeholder="question" required>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>對象</label>
+							  <select id="user" name="user" class="form-control">
+								<option value="Customer" selected >使用者</option>
+								<option value="CustomerService" >客服團隊</option>
+								<option value="business" >業務</option>
+								<option value="researcher" >研究員</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>專案結案日(Scope)</label>
+							    <input type="date" class="form-control" id="scope" name="scope" required>
+								<!-- <input type="text" class="form-control" id="scope" name="scope" placeholder="scope" required>-->
+							</div>
+							<div class="form-group col-md-2">
+							  <label>優先度(MoSCoW)</label>
+							  <select id="priority" name="priority" class="form-control">
+								<option value="MustHave" selected>必須要有（Must Have）</option>
+								<option value="ShouldHave" >應該要有（Should Have）</option>
+								<option value="CouldHave" >能做（Could Have）</option>
+								<option value="WontHave" >不能做（Won’t Have）</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="form-row">
+							<div class="form-group col-md-3">
+							  <label>PM</label>
+							  <select id="PM" name="PM" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>RD</label>
+							  <select id="RD" name="RD" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>UI</label>
+							  <select id="UI" name="UI" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>QA</label>
+							  <select id="QA" name="QA" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="form-row">
+							<div class="form-group col-md-3">
+							  <label>OS</label>
+							  <select id="OS" name="OS" class="form-control">
+								<option value="Ubuntu Server 22.04 LTS 64 BIT" selected >Ubuntu Server 22.04 LTS 64 BIT</option>
+								<option value="Ubuntu Server 20.04 LTS 64 BIT" >Ubuntu Server 20.04 LTS 64 BIT</option>
+								<option value="Ubuntu Server 18.04 LTS 64 BIT" >Ubuntu Server 18.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 22.04 LTS 64 BIT" >Ubuntu Desktop 22.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 20.04 LTS 64 BIT" >Ubuntu Desktop 20.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 18.04 LTS 64 BIT" >Ubuntu Desktop 18.04 LTS 64 BIT</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>CPU core</label>
+							  <select id="CPU" name="CPU" class="form-control">
+								<option value="1" selected>1</option>
+								<option value="4" >4</option>
+								<option value="8" >8</option>
+								<option value="16" >16</option>
+								<option value="32" >32</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>RAM</label>
+							  <select id="RAM" name="RAM" class="form-control">
+								<option value="8G" selected>8G</option>
+								<option value="16G" >16G</option>
+								<option value="32G" >32G</option>
+								<option value="64G" >64G</option>
+								<option value="128G" >128G</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-3">
+							  <label>HD</label>
+							  <select id="HD" name="HD" class="form-control">
+								<option value="30G" selected>30G</option>
+								<option value="50G" >50G</option>
+								<option value="100G" >100G</option>
+								<option value="200G" >200G</option>
+								<option value="500G" >500G</option>
+								<option value="1000G" >1000G</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="form-group">
+								<label>預期成果</label>
+								<textarea rows="4" class="form-control is-invalid" id="result" name="result" placeholder="預期成果" required></textarea>
+						  </div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+            <!-- /.container-fluid -->
+			</div>
+			<!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; NYCU DC 2021</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+{% include 'utilities-js.html' %}
+</body>
+
+</html>

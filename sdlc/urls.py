@@ -19,6 +19,14 @@ from . import views
 app_name = 'sdlc'
 urlpatterns = [
     path('', views.index, name='index'),
+    
+    path('sdlc1/', views.sdlc1, name='sdlc1'),
+    path('sdlc2/', views.sdlc2, name='sdlc2'),
+    path('sdlc3/', views.sdlc3, name='sdlc3'),
+    path('sdlc4/', views.sdlc4, name='sdlc4'),
+    path('sdlc5/', views.sdlc5, name='sdlc5'),
+    path('sdlc6/', views.sdlc6, name='sdlc6'),
+    
     path('admin/', admin.site.urls),    
     path('accounts/', include('django.contrib.auth.urls')),
 ]

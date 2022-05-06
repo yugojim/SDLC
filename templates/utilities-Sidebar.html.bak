@@ -37,11 +37,11 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
 						<a class="collapse-item" href="{% url 'sdlc1' %}">問題定義</a>
-                        <a class="collapse-item" href="{% url 'sdlc2' %}">提出需求</a>
-						<a class="collapse-item" href="{% url 'sdlc3' %}">軟體設計</a>
-						<a class="collapse-item" href="{% url 'sdlc4' %}">軟體測試</a>
-						<a class="collapse-item" href="{% url 'sdlc5' %}">實行</a>
-						<a class="collapse-item" href="{% url 'sdlc6' %}">維護更新</a>
+                        <a class="collapse-item" href="{% url 'sdlc1' %}">提出需求</a>
+						<a class="collapse-item" href="{% url 'sdlc1' %}">軟體設計</a>
+						<a class="collapse-item" href="{% url 'sdlc1' %}">軟體測試</a>
+						<a class="collapse-item" href="{% url 'sdlc1' %}">實行</a>
+						<a class="collapse-item" href="{% url 'sdlc1' %}">維護更新</a>
                     </div>
                 </div>
             </li>

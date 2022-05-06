@@ -1,0 +1,330 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="icon" href="data:,">
+    <title>NYCU SDLC Admin</title>	
+	{% include 'utilities-css.html' %}
+	
+</head>
+
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+	{% include 'utilities-Sidebar.html' %}
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+			{% include 'utilities-Topbar.html' %}
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+					<div class="d-sm-flex align-items-center justify-content-between mb-4">
+						<h3>提出需求 <span class="badge badge-secondary">Requirements {{ FuncResult }}</span></h3>
+						<a href="/static/doc/sdlc1.docx" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+								class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+					</div>
+					<form method="post" action="{% url 'sdlc1' %}">
+					{% csrf_token %}
+					<div class="form-group">
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>What(做什麼)</label>
+							</div>
+							<div class="form-group col-md-1">
+								<label>問題類型</label>
+							</div>
+							<div class="form-group col-md-2">
+								<select id="questiontype" name="questiontype" class="form-control">
+									<option value="恢復原狀型" selected >恢復原狀型</option>
+									<option value="防杜潛在危機型" >防杜潛在危機型</option>
+									<option value="追求理想型" >追求理想型</option>
+								</select>
+							</div>
+							<div class="form-group col-md-1">
+								<label>問題說明</label>
+							</div>
+							<div class="form-group col-md-4">
+								<input type="text" class="form-control" id="scope" name="scope" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>Who(誰要用)</label>
+							</div>
+							<div class="form-group col-md-1">
+								<label>單位</label>
+							</div>
+							<div class="form-group col-md-2">
+								<select id="user" name="user" class="form-control">
+									<option value="Customer" selected >客戶</option>
+									<option value="Service" >客服團隊</option>
+									<option value="business" >業務團隊</option>
+									<option value="researcher" >研究團隊</option>
+								</select>
+							</div>
+							<div class="form-group col-md-1">
+								<label>對象</label>
+							</div>
+							<div class="form-group col-md-4">
+								<input type="text" class="form-control" id="scope" name="scope" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>Why(為什麼要用)</label>
+							</div>
+							<div class="form-group col-md-8">
+								<input type="text" class="form-control" id="scope" name="scope" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>When(何時做好)</label>
+							</div>
+							<div class="form-group col-md-2">
+								<label>Start Date</label>
+							</div>
+							<div class="form-group col-md-2">
+								<input type="date" class="form-control" id="StartDate" name="StartDate" required>
+							</div>
+							<div class="form-group col-md-2">
+								<label>End Date</label>
+							</div>
+							<div class="form-group col-md-2">
+								<input type="date" class="form-control" id="StartDate" name="StartDate" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>Whom(誰要做)</label>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>PM</label>
+							  <select id="PM" name="PM" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>RD</label>
+							  <select id="RD" name="RD" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>UI</label>
+							  <select id="UI" name="UI" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>QA</label>
+							  <select id="QA" name="QA" class="form-control">
+								<option value="yugojim" selected >yugojim</option>
+							  </select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>How(怎麼做)</label>
+							</div>
+							<div class="form-group col-md-8">
+								<input type="text" class="form-control" id="scope" name="scope" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>HowMuch(要多少)</label>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>OS</label>
+							  <select id="OS" name="OS" class="form-control">
+								<option value="Ubuntu Server 22.04 LTS 64 BIT" selected >Ubuntu Server 22.04 LTS 64 BIT</option>
+								<option value="Ubuntu Server 20.04 LTS 64 BIT" >Ubuntu Server 20.04 LTS 64 BIT</option>
+								<option value="Ubuntu Server 18.04 LTS 64 BIT" >Ubuntu Server 18.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 22.04 LTS 64 BIT" >Ubuntu Desktop 22.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 20.04 LTS 64 BIT" >Ubuntu Desktop 20.04 LTS 64 BIT</option>
+								<option value="Ubuntu Desktop 18.04 LTS 64 BIT" >Ubuntu Desktop 18.04 LTS 64 BIT</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>CPU core</label>
+							  <select id="CPU" name="CPU" class="form-control">
+								<option value="1" selected>1</option>
+								<option value="4" >4</option>
+								<option value="8" >8</option>
+								<option value="16" >16</option>
+								<option value="32" >32</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>RAM</label>
+							  <select id="RAM" name="RAM" class="form-control">
+								<option value="8G" selected>8G</option>
+								<option value="16G" >16G</option>
+								<option value="32G" >32G</option>
+								<option value="64G" >64G</option>
+								<option value="128G" >128G</option>
+							  </select>
+							</div>
+							<div class="form-group col-md-2">
+							  <label>HD</label>
+							  <select id="HD" name="HD" class="form-control">
+								<option value="30G" selected>30G</option>
+								<option value="50G" >50G</option>
+								<option value="100G" >100G</option>
+								<option value="200G" >200G</option>
+								<option value="500G" >500G</option>
+								<option value="1000G" >1000G</option>
+							  </select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label>A.需求規格表</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>1、前言</label>
+							</div>
+							<div class="form-group col-md-8">
+								<input type="text" class="form-control" id="question" name="question" placeholder="中榮基因報告程式改版" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-3">
+								<label>(1.1)文件目的</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="摘要描述本文件之目的與內容。" required>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(1.2)現有系統</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="現有以HAPI FHIR server 架設，基因報告web服務乙台" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label>(1.3)改善優化</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="無權限管控、報告項目及內容需工程師設定、無效能測試報告" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>2、標的軟體系統摘述</label>								
+							</div>
+							<div class="form-group col-md-8">
+								<input type="text" class="form-control" id="question" name="question" placeholder="報告系統改採IBM FHIR server，表單可依使用者提供之資訊產生欄位內容(本階段採上傳檔案方式)，也就是由使用者自行定義表單，依條件搜尋高風險名單" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-3">
+								<label>(2.1)整體系統概述</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="從需求面說明此系統軟體的範圍、架構、適用之環境及未來的使用者等。" required>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(2.2)系統操作環境平台</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="硬體、軟體、及網路環境" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label>(2.3)使用者作業活動</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="作業活動，開新檔案/開啟舊檔/儲存檔案/另存新檔/關閉檔案/列印/編輯/線上說明/版本說明等作業" required>
+							</div>
+							<div class="form-check col-md-4">
+								<label>(2.5)驗收前應準備之文件(以英文字母順序排列)</label><br>
+								<input type="checkbox" value="" id="defaultCheck1">
+								<label class="form-check-label" for="defaultCheck1">軟體測試計畫書</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">測試案例清單</label><br>
+							</div>							
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-2">
+								<label>3、分項功能需求</label>								
+							</div>
+							<div class="form-group col-md-8">
+								<input type="text" class="form-control" id="question" name="question" placeholder="報告系統改採IBM FHIR server，表單可依使用者提供之資訊產生欄位內容(本階段採上傳檔案方式)，也就是由使用者自行定義表單，依條件搜尋高風險名單" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-3">
+								<label>(3.1)功能需求</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="從需求面說明此系統軟體的範圍、架構、適用之環境及未來的使用者等。" required>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(3.2)介面需求</label><br>
+								<input type="checkbox" value="" id="defaultCheck1">
+								<label class="form-check-label" for="defaultCheck1">會員模組</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">編輯模組</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">搜尋模組</label><br>
+							</div>
+							<div class="form-group col-md-4">
+								<label>(3.3)非功能性需求</label><br>
+								<input type="checkbox" value="" id="defaultCheck1">
+								<label class="form-check-label" for="defaultCheck1">處理時間需求</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">保密需求</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">安全需求</label><br>
+								<input type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">例外處理</label><br>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(3.4)雛型系統摘述</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="question" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label>B.需求追溯表</label>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(1.4)名詞解釋與縮寫符號(B、C)</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="FHIR（Fast Healthcare Interoperability Resources）" required>
+							</div>
+							<div class="form-group col-md-3">
+								<label>(1.5)參考文件資料(B、C)</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="https://www.hl7.org/fhir/" required>
+							</div>	
+							<div class="form-group col-md-3">
+								<label>(2.4)遵循及參考標準(B、C)</label>
+								<input type="text" class="form-control" id="question" name="question" placeholder="question" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<label>C.附錄(參考資料)</label>
+							</div>
+						</div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+					</form>
+				</div>
+			</div>
+					<!-- Footer -->
+		<footer class="sticky-footer bg-white">
+			<div class="container my-auto">
+				<div class="copyright text-center my-auto">
+					<span>Copyright &copy; NYCU DC 2021</span>
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+			<!-- /.container-fluid -->
+		</div>
+		<!-- End of Main Content -->
+		
+	</div>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+{% include 'utilities-js.html' %}
+</body>
+
+</html>
