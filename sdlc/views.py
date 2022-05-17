@@ -5,6 +5,8 @@ import pandas as pd
 import pathlib
 from . import Function
 import os
+import json 
+
 DocumentPath = str(pathlib.Path().absolute()) + "/static/doc/"
 def sdlc1(request):
     try:
@@ -121,7 +123,25 @@ def sdlc6(request):
         return render(request, 'sdlc6.html')    
     
 def index(request):
-    try:
-        return render(request, 'index.html')
+    filepath=DocumentPath + 'projects.json'
+    try:        
+        with open(filepath,encoding="utf-8") as f:
+            Projects = json.load(f)
+        context = {
+                'Projects' : Projects,
+                }
+        return render(request, 'index.html', context)
     except:
         return render(request, 'index.html')
+
+def issues(request):
+    filepath=DocumentPath + 'issues.json'
+    try:        
+        with open(filepath,encoding="utf-8") as f:
+            Issues = json.load(f)
+        context = {
+                'Issues' : Issues,
+                }
+        return render(request, 'Issues.html', context)
+    except:
+        return render(request, 'Issues.html')

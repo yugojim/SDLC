@@ -1,0 +1,1363 @@
+{
+    "issues": [
+        {
+            "id": 20621,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO27001] 建立日常資安工作彙總表",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:20:20Z",
+            "updated_on": "2021-11-16T09:20:20Z"
+        },
+        {
+            "id": 20620,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO27001] 設計redmine新進及離退申請表",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:19:03Z",
+            "updated_on": "2021-11-16T09:19:03Z"
+        },
+        {
+            "id": 20619,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO27001] 提供組織職掌表",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:17:43Z",
+            "updated_on": "2021-11-16T09:17:43Z"
+        },
+        {
+            "id": 20618,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO27001] 訂定人員資通安全實務守則",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:16:37Z",
+            "updated_on": "2021-11-16T09:16:37Z"
+        },
+        {
+            "id": 20617,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO27001] 建立外部單位聯絡清單",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:15:21Z",
+            "updated_on": "2021-11-16T09:15:21Z"
+        },
+        {
+            "id": 20616,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO9001/27001] 建立外來文件清冊",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:14:29Z",
+            "updated_on": "2021-12-07T07:21:58Z"
+        },
+        {
+            "id": 20615,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO9001/27001] 擬定設備異常紀錄方式",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-30"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:13:33Z",
+            "updated_on": "2021-11-16T09:13:33Z"
+        },
+        {
+            "id": 20614,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "subject": "[ISO9001] 建立個人職務說明書",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": "Karen"
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-11-19"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:11:38Z",
+            "updated_on": "2021-11-16T09:11:38Z"
+        },
+        {
+            "id": 20613,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 設定儲存空間80%警示",
+            "description": "可請資訊室幫忙",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:10:03Z",
+            "updated_on": "2021-11-16T09:10:03Z"
+        },
+        {
+            "id": 20612,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 提供兩個弱掃IP給NII",
+            "description": "",
+            "start_date": "2021-11-22",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2021-12-17"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:08:31Z",
+            "updated_on": "2021-11-17T07:11:18Z"
+        },
+        {
+            "id": 20611,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 2,
+                "name": "In Progress"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 建立備份異常通知",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 50,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:06:53Z",
+            "updated_on": "2021-11-17T07:13:09Z"
+        },
+        {
+            "id": 20610,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 防火牆Policy設定",
+            "description": "注意要設有效期限",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:04:39Z",
+            "updated_on": "2021-11-16T09:24:30Z"
+        },
+        {
+            "id": 20609,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 2,
+                "name": "In Progress"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 建置Log Server",
+            "description": "注意系統管理者權限區分",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:02:00Z",
+            "updated_on": "2021-11-17T07:07:47Z"
+        },
+        {
+            "id": 20608,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 遠端連線設定第2道檢核",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T09:00:43Z",
+            "updated_on": "2021-11-16T09:24:11Z"
+        },
+        {
+            "id": 20607,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 246,
+                "name": "明 凱文"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "[ISO27001] 提升Redmine系統的安全性",
+            "description": "",
+            "start_date": "2021-11-16",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": "Oscar"
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": "2022-01-15"
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題",
+                    "value": "0"
+                }
+            ],
+            "created_on": "2021-11-16T08:59:02Z",
+            "updated_on": "2021-11-17T07:40:12Z"
+        },
+        {
+            "id": 20302,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "assigned_to": {
+                "id": 16,
+                "name": "陳 冠雄"
+            },
+            "subject": "先提供AWS測試的網址 確認滲透性測試是否可以於雲端進行",
+            "description": "架在AWS \r\nregion:東京\r\n\r\nhttp://54.178.98.50:50080/demo/index.html",
+            "start_date": "2021-08-26",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-26T06:35:12Z",
+            "updated_on": "2021-08-26T06:35:12Z"
+        },
+        {
+            "id": 20274,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.2.3 技術遵循性查查",
+            "description": "應定期查核資訊系統是否遵循安全實作標準。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:42:44Z",
+            "updated_on": "2021-08-18T02:42:44Z"
+        },
+        {
+            "id": 20273,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.2.2 安全政策與標準的遵循性",
+            "description": "管理人員應確保其責任範圍內所有安全程序皆正確執行，以達成各項安全政策與標準的遵循性。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:42:31Z",
+            "updated_on": "2021-08-18T02:42:31Z"
+        },
+        {
+            "id": 20272,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.2.1 資訊安全的獨立審查",
+            "description": "資訊安全政策的實施，應進行獨立的審查。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:42:22Z",
+            "updated_on": "2021-08-18T02:42:22Z"
+        },
+        {
+            "id": 20271,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.1.5 密碼控制措施的規定",
+            "description": "應使用密碼控制措施，以遵循所有相關的協議、法律及法規。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:42:12Z",
+            "updated_on": "2021-08-18T02:42:12Z"
+        },
+        {
+            "id": 20270,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.1.4 個人識別資訊的隱私和保護",
+            "description": "應如同相關法令、法規及若適用的契約條文所要求的，確保資料保護與隱私。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:42:02Z",
+            "updated_on": "2021-08-18T02:42:02Z"
+        },
+        {
+            "id": 20269,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.1.3 紀錄的保護",
+            "description": "應依據法令、法規、契約及營運要求，保護重要紀錄，免於遺失、毀損及偽造。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:41:50Z",
+            "updated_on": "2021-08-18T02:41:50Z"
+        },
+        {
+            "id": 20268,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.1.2 智慧財產權",
+            "description": "應實作適當程序，以確保所使用的資料可能涉及智慧財產權與所使用的專屬軟體產品，可遵循法律、法規及契約的要求。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:41:40Z",
+            "updated_on": "2021-08-18T02:41:40Z"
+        },
+        {
+            "id": 20267,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20124
+            },
+            "subject": "A.18.1.1 適法性及合約要求的識別",
+            "description": "與契約要求及組織用以符合此等要求之作法，宜加以明確界定、文件化及維持最新。",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:41:32Z",
+            "updated_on": "2021-08-18T02:41:32Z"
+        },
+        {
+            "id": 20266,
+            "project": {
+                "id": 309,
+                "name": "3in1"
+            },
+            "tracker": {
+                "id": 5,
+                "name": "Task"
+            },
+            "status": {
+                "id": 1,
+                "name": "New"
+            },
+            "priority": {
+                "id": 4,
+                "name": "Normal"
+            },
+            "author": {
+                "id": 185,
+                "name": "林 宗毅"
+            },
+            "parent": {
+                "id": 20123
+            },
+            "subject": "A.17.2.1 資訊處理設施的可用性",
+            "description": "資訊處理設施應具有足夠的備援，以滿足可用性之要求",
+            "start_date": "2021-08-18",
+            "done_ratio": 0,
+            "custom_fields": [
+                {
+                    "id": 123,
+                    "name": "追蹤次數",
+                    "value": ""
+                },
+                {
+                    "id": 24,
+                    "name": "負責人姓名",
+                    "value": ""
+                },
+                {
+                    "id": 50,
+                    "name": "預計完成日期",
+                    "value": ""
+                },
+                {
+                    "id": 160,
+                    "name": "確認是否有侵權及專利問題"
+                }
+            ],
+            "created_on": "2021-08-18T02:41:04Z",
+            "updated_on": "2021-08-18T02:41:04Z"
+        }
+    ],
+    "total_count": 179,
+    "offset": 0,
+    "limit": 25
+}

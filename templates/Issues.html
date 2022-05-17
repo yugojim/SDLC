@@ -44,10 +44,12 @@
                                     <thead>
                                         <tr>
                                             <th>id</th>
-                                            <th>name</th>
-                                            <th>identifier</th>
-                                            <th>description</th>
-											<th>status</th>
+                                            <th>project</th>
+                                            <th>tracker</th>
+                                            <th>status</th>
+											<th>priority</th>
+											<th>author</th>
+											<th>assigned_to</th>
                                             <th>created_on</th>
 											<th>updated_on</th>
                                         </tr>
@@ -55,24 +57,28 @@
                                     <tfoot>
                                         <tr>
                                             <th>id</th>
-                                            <th>name</th>
-                                            <th>identifier</th>
-                                            <th>description</th>
-											<th>status</th>
+                                            <th>project</th>
+                                            <th>tracker</th>
+                                            <th>status</th>
+											<th>priority</th>
+											<th>author</th>
+											<th>assigned_to</th>
                                             <th>created_on</th>
 											<th>updated_on</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-										{% for project in Projects.projects %}
+										{% for issues in Issues.issues %}
 										<tr>
-											<td>{{ project.id }}</td>
-											<td>{{ project.name }}</td>
-											<td>{{ project.identifier }}</td>
-											<td>{{ project.description }}</td>
-											<td>{{ project.status }}</td>
-											<td>{{ project.created_on }}</td>
-											<td>{{ project.updated_on }}</td>
+											<td>{{ issues.id }}</td>
+											<td>{{ issues.project.name }}</td>
+											<td>{{ issues.tracker.name }}</td>
+											<td>{{ issues.status.name }}</td>
+											<td>{{ issues.priority.name }}</td>
+											<td>{{ issues.author.name }}</td>
+											<td>{{ issues.assigned_to.name }}</td>
+											<td>{{ issues.created_on }}</td>
+											<td>{{ issues.updated_on }}</td>
 										</tr>
 										{% endfor %}										 
                                     </tbody>
@@ -80,6 +86,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!-- /.container-fluid -->
 

@@ -19,6 +19,7 @@ from . import views
 app_name = 'sdlc'
 urlpatterns = [
     path('', views.index, name='index'),
+    path('issues/', views.issues, name='issues'),
     
     path('sdlc1/', views.sdlc1, name='sdlc1'),
     path('sdlc2/', views.sdlc2, name='sdlc2'),
